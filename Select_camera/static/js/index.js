@@ -6,11 +6,10 @@
 *  tree.
 */
 
-'use strict';
 
 const videoElement = document.querySelector('video');
 const videoSelect = document.querySelector('select#videoSource');
-const selectors = [videoSelect];    
+const selectors = [videoSelect];
 
 
 
