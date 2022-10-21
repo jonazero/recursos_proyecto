@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet">
+</head>
+
+<body onload="start()">
+    <div id="container">
+        <div class="select">
+            <label for="videoSource">Video source: </label><select id="videoSource"></select>
+        </div>
+    </div>
+    <div id="media" style="display: none">
+        <h2>Media</h2>
+        <video id="video" autoplay="true" playsinline="true"></video>
+    </div>
+    <script src="/static/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+}
+
+#media {
+    max-width: 1280px;
+}
